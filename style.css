@@ -1,0 +1,94 @@
+*{
+    font-family: 'Poppins', sans serif;
+}
+
+body{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+header{
+    margin-bottom: 20px;
+    color: #26375a;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    align-items: center;
+}
+
+.input-field{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    height: 45px;
+    width: 88%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #26375a;
+    padding: 0 20px 0 20px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-input-placeholder{
+    color: #26375a;
+}
+
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(38, 55, 90, 0.7);
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 15px;
+}
+
+.submit:hover{
+    background-color: rgba(38, 55, 90, 0.5);
+    
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: small;
+    color: #4b4b4b;
+    margin-top: 10px;
+}
+
+.sign-up{
+    border-style: none; 
+    cursor: pointer;
+    color: #26375a;
+}
+
+.sign-up:hover{
+    color:#5d85d6;
+}
